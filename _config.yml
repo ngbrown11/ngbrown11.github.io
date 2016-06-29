@@ -18,3 +18,9 @@ github_username:  ngbrown11
 
 # Build settings
 markdown: kramdown
+
+# Gems
+gems:
+ - jemoji
+ - jekyll-mentions
+ - jekyll-seo-tag
