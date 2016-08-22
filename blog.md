@@ -1,7 +1,7 @@
 ---
-layout: post_page
-title: Posts
-permalink: /posts/
+layout: blog_page
+title: Blog
+permalink: /blog/
 ---
 
 This page is to contain all of my blog posts. Specifically weeding out and avoiding any posts pertaining
