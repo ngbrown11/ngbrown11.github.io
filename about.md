@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I am a full-time senior majoring in Computer Information Systems with a specialization in Health Informatics. I am an extremely motivated individual and I am interested in programming and software development. I have some formal education in programming, but I am mostly self-taught. I am very eager to find a position or an internship in which I can utilize my skills to help an organization, as well as myself, develop and grow.
