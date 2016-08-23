@@ -203,4 +203,11 @@ pre {
             fill: $grey-color;
         }
     }
+    
+    &myLogo {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        vertical-align: middle;
+    }
 }
