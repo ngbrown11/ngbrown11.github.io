@@ -208,8 +208,11 @@ pre {
  * My Logo Icon
  */
 .icon-myLogo {
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    vertical-align: middle;
+    
+    > svg {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        vertical-align: middle;
+    }
 }
