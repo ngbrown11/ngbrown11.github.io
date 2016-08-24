@@ -209,9 +209,10 @@ pre {
  */
 .myLogo {
     
+    width: 128px;
+    height: 128px;
+    
     > svg {
         display: inline-block;
-        width: 64px;
-        height: 64px;
     }
 }
