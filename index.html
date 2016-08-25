@@ -7,7 +7,7 @@ layout: default
   <h1 class="page-heading">{{ site.title }}</h1>
   
   {% for post in site.posts %}
-    (% if post.prev nil %}
+    (% if post.prev is nil %}
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
     <h2>
