@@ -14,6 +14,8 @@ layout: default
     </h2>
     {{ post.excerpt }}
   {% endfor %}
+  
+  {% include myLogo_background.html %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
