@@ -20,6 +20,12 @@
           </li>
           {% endif %}
           
+          {% if site.stackoverflow_username %}
+          <li>
+            {% include icon-github.html username=site.stackoverflow_username %}
+          </li>
+          {% endif %}
+          
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
