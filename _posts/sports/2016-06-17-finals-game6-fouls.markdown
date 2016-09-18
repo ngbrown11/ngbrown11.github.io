@@ -2,7 +2,7 @@
 layout: post
 title:  "Referees Ruining Basketball (Finals Game 6)"
 date:   2016-06-17 05:57:58 -0400
-categories: Basketball
+categories: SPORTS
 ---
 The integrity of the NBA is slowly being compromised by the softening of the game, as well as the huge difference in the foul calls 
 made by the referees. In last nights game 6 of the Finals, the Cavaliers vs. the Warriors, there was atleast two egregious foul calls 
