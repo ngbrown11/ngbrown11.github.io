@@ -1,8 +1,8 @@
-#res div {
+div {
 	border-radius: 5px;
 }
 
-#resheader {
+#header {
 	z-index: 1;
 	position: fixed;
 	width: 98%;
@@ -12,7 +12,7 @@
 	margin-bottom: 10px;
 }
 
-#resname {
+#name {
 	float:left;
 	margin-left: 5px;
 	padding-top: 5px;
@@ -21,7 +21,7 @@
 	color: #ffffff;
 }
 
-#resemail{
+#email{
 	float:right;
 	margin-right: 5px;
 	padding-top: 5px;
@@ -30,13 +30,13 @@
 	color: #ffffff;
 }
 
-#res h4 {
+h4 {
 	margin-left: 5px;
 	margin-bottom: 15px;
 	font-family: Verdana, sans-serif;
 }
 
-.resright p {
+.right p {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: -10px;
@@ -44,15 +44,15 @@
 	color: #000000;
 }
 
-#res li {
+li {
 	list-style-type: square;
 }
 
-#res a:hover {
+a:hover {
 	font-weight: bold;
 }
 
-.resleft {
+.left {
 	position: relative;
 	float: left;
 	margin-top: 63px;
@@ -62,14 +62,14 @@
 	margin-bottom: 8px;
 }
 
-.resprogParent {
+.progParent {
 	display: inline-block;
 	height: 100%;
 	width: 100%;
 	padding: 5%;
 }
 
-.resprog {
+.prog {
 	margin-left: 2%;
 	margin-bottom: 5%;
 	display: inline-block;
@@ -94,7 +94,7 @@
 	background-color: #006fb1;
 }
 
-.resright {
+.right {
 	position: relative;
 	float: right;
 	margin-top: 63px;
@@ -104,7 +104,7 @@
 	margin-bottom: 8px;
 }
 
-#resfooter {
+#footer {
 	position: relative;
 	height: 80px;
 	background-color: #668284;
@@ -115,7 +115,7 @@
 	color: #ffffff;
 }
 
-#resfooter p {
+#footer p {
 	position: relative;
 	padding-top: 15px;
 }
