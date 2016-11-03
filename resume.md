@@ -1,5 +1,5 @@
 ---
-layout: resume_page
+layout: Resume_IT
 title: Resume
 permalink: /about/resume/
 ---
