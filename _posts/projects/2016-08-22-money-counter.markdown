@@ -1,7 +1,24 @@
 ---
 layout: post
-title: "Money Counter Application"
+title: "Guess The Number"
 date: 2016-08-22 01:20:04 -0400
-categories: PROJECT
+categories: Project
 ---
-This is an Android application that counts money.
+This is my first Android application.
+
+#Simple Gaming Application
+
+This is a simple application in which a random number between 0 & 100 is generated and the user is supposed to try
+and guess what the number is. If incorrect, the application will respond with a response of "too high" or "too low".
+The user can guess until the correct answer is submitted, in which the game will alert you that you have guessed correctly.
+
+This app can be useful in a number of ways:
+    -Can help to teach those learning their numbers and counting
+    -Can help to waste time there is nothing else to do
+    -Can help when a random "pick a number" situation comes up
+
+I intend to upgrade the application so that it has a more pleasant ui. I definitely also intend to add more range options then 
+0-100 to the application to make the app more useful.
+
+Here is the app's link to [Google Play.](https://play.google.com/store/apps/details?id=io.github.ngbrown11.myfirstapp)
+Also, here is a link to the [Github repo.](https://github.com/ngbrown11/guess-the-number)
