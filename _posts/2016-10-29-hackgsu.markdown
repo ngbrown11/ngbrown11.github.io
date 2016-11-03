@@ -13,16 +13,16 @@ The hackathon I went to was organized by Georgia State University and called hac
 ###HackGSU
 
 What is hackGSU?
-*__hackGSU__ is the hackathon hosted by the GSU Computer Science Department's ACM & IEEE student organizations. There will be lots of food and $$ prizes $$.
+* __hackGSU__ is the hackathon hosted by the GSU Computer Science Department's ACM & IEEE student organizations. There will be lots of food and $$ prizes $$.
 Cost?
-*Nothing! Zero! 100% free of charge.
-*The event is absolutely free for all participants. We will provide you with the venue, food, Wi-Fi, etc. You just need to show up.
+* Nothing! Zero! 100% free of charge.
+* The event is absolutely free for all participants. We will provide you with the venue, food, Wi-Fi, etc. You just need to show up.
 Sponsors
-*GE
-*State Farm
-*XYIENCE
-*Anthem
-*+ over 20 more!
+* GE
+* State Farm
+* XYIENCE
+* Anthem
+* + over 20 more!
 
 I recommend that every person who has any interest technology at all try to attend atleast one hackathon in their life. I literally only slept about 4 out of 46 hours (!!!) and I had such an amazing experience. Even if you don't create an amazing project while your there, you can learn new things at development workshops they may have. You can also get to see some incredible technology, created in just a short period of time, first hand!
 
