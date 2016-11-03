@@ -1,5 +1,5 @@
 ---
 layout: 
 title: Resume
-permalink: /about/resume/
+permalink: /Resume_IT.pdf/
 ---
