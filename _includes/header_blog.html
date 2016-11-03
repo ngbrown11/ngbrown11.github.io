@@ -19,7 +19,7 @@
       <div class="trigger">
         {% for my_categories in site.posts %}
           {% if my_categories.categories %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_categories.categories }}</a>
+          <a class="page-link" href="{{ my_categories.url | prepend: site.baseurl }}">{{ my_categories.categories }}</a>
           {% endif %}
         {% endfor %}
       </div>
