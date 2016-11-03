@@ -13,9 +13,9 @@ and guess what the number is. If incorrect, the application will respond with a 
 The user can guess until the correct answer is submitted, in which the game will alert you that you have guessed correctly.
 
 ######This app can be useful in a number of ways:
-    *-Can help to teach those learning their numbers and counting
-    *-Can help to waste time there is nothing else to do
-    *-Can help when a random "pick a number" situation comes up
+* -Can help to teach those learning their numbers and counting
+* -Can help when a random "pick a number" situation comes up
+* -Can help to waste time there is nothing else to do
 
 I intend to upgrade the application so that it has a more pleasant ui. I definitely also intend to add more range options then 
 0-100 to the application to make the app more useful.
