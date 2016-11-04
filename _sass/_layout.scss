@@ -3,7 +3,7 @@
  */
 .site-header {
     border-top: 5px solid $blue-color-dark;
-    border-bottom: 1px solid $blue-color-light;
+    border-bottom: 1px solid $blue-color-dark; //Origin light
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -98,7 +98,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $blue-color-light;
+    border-top: 1px solid $blue-color-dark; //Origin light
     padding: $spacing-unit 0;
 }
 
@@ -168,6 +168,7 @@
  * Page content
  */
 .page-content {
+    margin: $spacing-unit;
     padding: $spacing-unit 0;
 }
 
@@ -239,41 +240,4 @@
             font-size: 18px;
         }
     }
-}
-/**
- * interactiveStatus update
- */
-.container {
-  width: 520px;
-  margin-top: 20px;
-}
-
-.button-group {
-  margin-bottom: 20px;
-}
-
-.counter {
-  display: inline;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 10px;
-}
-
-.posts {
-  clear: both;
-  list-style: none;
-  padding-left: 0;
-  width: 100%;
-}
-
-.posts li {
-  background-color: #fff;
-  border: 1px solid #d8d8d8;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  word-wrap: break-word;
-  min-height: 42px;
 }
