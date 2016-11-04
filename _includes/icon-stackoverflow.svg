@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="2048px"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 2048 2048"
+   width="2048px"
+   xml:space="preserve"
    id="svg4136"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   sodipodi:docname="icon-stackoverflow.svg">
-  <metadata
-     id="metadata4142">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs4140" />
-  <sodipodi:namedview
+   sodipodi:docname="icon-stackoverflow.svg"><metadata
+     id="metadata4149"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -42,23 +29,30 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
      inkscape:window-height="705"
-     id="namedview4138"
+     id="namedview4147"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="12"
-     inkscape:cy="12"
+     inkscape:cx="476.48247"
+     inkscape:cy="388.58562"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4136" />
-  <image
-     sodipodi:absref="C:\Users\nbrow_000\Pictures\icon-stackoverflow.png"
-     xlink:href="icon-stackoverflow.png"
-     y="0"
-     x="0"
-     id="image4144"
-     style="image-rendering:optimizeQuality"
-     preserveAspectRatio="none"
-     height="24"
-     width="24" />
-</svg>
+     inkscape:current-layer="svg4136" /><defs
+     id="defs4138"><style
+       type="text/css"
+       id="style4140"><![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#424242}
+   ]]></style></defs><g
+     id="Layer_x0020_1"
+     transform="matrix(0.01537094,0,0,0.01537094,464.67964,1792.6235)"
+     style="fill:#1a1a1a;opacity:0.9"><path
+       class="fil0"
+       d="m 567.932,1724.61 790.426,0 0,-560.175 95.9977,0 0,656.173 -982.422,0 0,-656.173 95.9977,0 0,560.175 z m 75.1276,-240.162 640.173,0 0,95.9977 -640.173,0 0,-95.9977 z m 23.7614,-244.374 636.558,67.9418 -10.1433,95.3883 -636.558,-67.9418 10.1433,-95.3883 z m 44.739,-248.124 616.819,171.34 -25.5496,92.4331 -616.819,-171.34 L 711.56,991.95 Z m 145.8,-296.282 556.141,317.064 -47.3363,83.4072 -556.141,-317.064 47.3363,-83.4072 z m 292.582,-285.486 378.388,516.374 -77.367,56.7071 -378.388,-516.374 77.367,-56.7071 z m 380.625,-150.962 137.147,625.31 -93.8056,20.2583 -137.147,-625.31 93.8056,-20.2583 z"
+       id="path4143"
+       inkscape:connector-curvature="0"
+       style="fill:#1a1a1a" /></g><rect
+     class="fil1"
+     height="2048"
+     width="2048"
+     id="rect4145" /></svg>
