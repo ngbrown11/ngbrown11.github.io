@@ -2,7 +2,7 @@
 layout: post
 title: "Hackathons...my new favorite thing"
 date: 2016-10-29 12:42:11 -0400
-categories: 
+categories: Tech
 excerpt_separator: <!--sep-->
 ---
 Last week I went to my first hackathon ever, and it was awesome!
