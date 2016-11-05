@@ -3,23 +3,24 @@ layout: post
 title: "Guess The Number"
 date: 2016-08-22 01:20:04 -0400
 author: "Nathaniel Brown"
-categories: Projects Tech
+categories: "Projects" "Tech"
 tags: project tech
 excerpt_separator: <!--sep-->
 ---
 This is my first Android application.
 <!--sep-->
 
-###Simple Gaming Application
+### Simple Gaming Application ###
 
 This is a simple application in which a random number between 0 & 100 is generated and the user is supposed to try
 and guess what the number is. If incorrect, the application will respond with a response of "too high" or "too low".
 The user can guess until the correct answer is submitted, in which the game will alert you that you have guessed correctly.
 
-#####This app can be useful in a number of ways:
-* Can help to teach those learning their numbers and counting
-* Can help when a random "pick a number" situation comes up
-* Can help to waste time there is nothing else to do
+##### This app can be useful in a number of ways: #####
+
+- Can help to teach those learning their numbers and counting
+- Can help when a random "pick a number" situation comes up
+- Can help to waste time there is nothing else to do
 
 I intend to upgrade the application so that it has a more pleasant ui. I definitely also intend to add more range options then 
 0-100 to the application to make the app more useful.
