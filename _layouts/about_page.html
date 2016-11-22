@@ -3,9 +3,9 @@
 	<head>
 		<style>
 			body {
-				background-color:  #ccd3de;
+				background-color:  #0d2852;/*#ccd3de;*/
 			}
-			
+
 			div {
 				border-radius: 5px;
 			}
@@ -19,7 +19,7 @@
 				background-color: #668284;
 				margin-bottom: 10px;
 			}
-			
+
 			img {
 				float: left;
 				margin-left: 5px;
@@ -80,8 +80,25 @@
 				margin-bottom: 8px;
 			}
 
+			/*#show-langs {
+				display: none;
+			}*/
+			/* Mobile layout */
+			@media only screen and (max-width: 720px){
+			  .left {
+			    display: none;
+			  }
+
+				/*#show-langs {
+					display: block;
+					float: left;
+					width: 36px;
+					height: 26px;
+				}*/
+			}
+
 			.progParent {
-				display: inline-block;
+				/*display: inline-block;*/
 				height: 100%;
 				width: 100%;
 				padding: 5%;
@@ -118,6 +135,7 @@
 				margin-top: 105px;
 				width: 86%;
 				height: 550px;
+				overflow: auto;
 				background-color: #B9D7D9;
 				margin-bottom: 8px;
 			}
@@ -160,6 +178,7 @@
 				<div class="prog" id="sql">SQL</div></b>
 			</div>
 		</div>
+		<!-- <button id="show-langs"></button> -->
 
 		<div class="right">
 			<h4>About me</h4>

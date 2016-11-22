@@ -22,8 +22,8 @@ The user can guess until the correct answer is submitted, in which the game will
 - Can help when a random "pick a number" situation comes up
 - Can help to waste time there is nothing else to do
 
-I intend to upgrade the application so that it has a more pleasant ui. I definitely also intend to add more range options then 
+I intend to upgrade the application so that it has a more pleasant UI. I definitely also intend to add more range options then
 0-100 to the application to make the app more useful.
 
 Here is the app's link to [Google Play.](https://play.google.com/store/apps/details?id=io.github.ngbrown11.myfirstapp)
-Also, here is a link to the [Github repo.](https://github.com/ngbrown11/guess-the-number)
+Also, here is a link to the [GitHub repo.](https://github.com/ngbrown11/guess-the-number)
