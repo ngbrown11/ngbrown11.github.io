@@ -1,7 +1,7 @@
 ---
 title: "Project PULP"
 date: 2016-11-22 13:49:51 -0400
-tags: "project" "tech"
+tags: project
 ---
 A system of software applications, or software-as-a-service, healthcare.
 <!--sep-->
