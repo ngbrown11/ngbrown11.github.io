@@ -18,6 +18,20 @@ twitter_username: Mr_Innovative
 github_username:  ngbrown11
 linkedin_username: Nathaniel Brown
 stackoverflow_username: Nate
+excerpt_separator: <!--sep-->
+defaults: # YAML default variables
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      author: "Nathaniel Brown"
+  -
+    scope:
+      path: "_posts/projects"
+    values:
+      categories: "Projects"
+      tags: "project"
 
 # Build settings
 markdown: kramdown

@@ -1,11 +1,7 @@
 ---
-layout: post
 title: "Guess The Number"
 date: 2016-08-22 01:20:04 -0400
-author: "Nathaniel Brown"
-categories: "Projects" "Tech"
 tags: "project" "tech"
-excerpt_separator: <!--sep-->
 ---
 This is my first Android application.
 <!--sep-->

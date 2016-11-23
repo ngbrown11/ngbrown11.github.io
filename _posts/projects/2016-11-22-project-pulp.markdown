@@ -1,11 +1,7 @@
 ---
-layout: post
 title: "Project PULP"
 date: 2016-11-22 13:49:51 -0400
-author: "Nathaniel Brown"
-categories: "Projects" "Tech"
 tags: "project" "tech"
-excerpt_separator: <!--sep-->
 ---
 A system of software applications, or software-as-a-service, healthcare.
 <!--sep-->
