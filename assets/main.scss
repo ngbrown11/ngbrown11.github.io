@@ -84,10 +84,10 @@ $on-laptop:        900px;		//Originally 800px
      vertical-align: middle;
  }
  .nav.left {
-     margin-right: 50px;
+     margin-right: 120px;
  }
  .nav.right {
-     margin-left: 50px;
+     margin-left: 120px;
  }
  .nav a {
      padding: 10px 0;
@@ -180,7 +180,7 @@ ul, ol, dl, figure,
 	min-height: 120px;
 }
 .section-title {
-  border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
 }
 
 /**
@@ -317,9 +317,9 @@ a {
 .myLogo {
 
     margin: 0 auto;
+    display: inline-block;
 
     > svg {
-        display: inline-block;
         width: 96px;
         height: 96px;
     }

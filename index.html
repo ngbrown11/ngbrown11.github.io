@@ -3,14 +3,14 @@ layout: default
 ---
 <!-- Mini-intro section -->
 <div class="section">
-	<span><strong><h2 class="section-title">Nathaniel's Portfolio</h2></strong></span>
+	<h2><strong><span class="section-title">Nathaniel's Portfolio</span></strong></h2>
 	<p>I'm a software developer and a computer information systems major at Georgia State University's Robinson College of Business.</p>
 	<span><a href="/about/">Read about me</a></span>
 </div>
 
 <!-- Latest project section -->
 <div class="section">
-	<span><strong><h2 class="section-title">Projects</h2></strong></span>
+	<h2><strong><span class="section-title">Projects</span></strong></h2>
 
 	{% for post in site.categories.Projects limit:1 %}
 		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -25,7 +25,7 @@ layout: default
 
 <!-- Latest post section -->
 <div class="section">
-	<span><strong><h2 class="section-title">Posts</h2></strong></span>
+	<h2><strong><span class="section-title">Posts</span></strong></h2>
 
 	{% for post in site.posts limit:1 %}
 		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -40,6 +40,6 @@ layout: default
 
 <!-- Contacts section -->
 <div class="section">
-	<span><strong><h2 class="section-title">Contact Me</h2></strong></span>
+	<h2><strong><span class="section-title">Contact Me</span></strong></h2>
 	<p>I'm available primarily through <a href="mailto:ngbrown11@gmail.com">email</a>. I can also be reached on <a href="https://linkedin.com/in/nathaniel-brown-597465b2">LinkedIn</a>. Links to GitHub and other online connections can be found below.</p>
 </div>
