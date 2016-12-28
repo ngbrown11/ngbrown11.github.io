@@ -71,6 +71,32 @@ $on-laptop:        900px;		//Originally 800px
 /**
  * Footer
  */
+socials {
+
+}
+footer ul {
+    list-style: none;
+    display: inline-block;
+    font-size: 11px;
+}
+footer li {
+    text-align: left;
+}
+.about-foot {
+    max-width: 300px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 15px;
+}
+.meta {
+    margin: 0 auto;
+    font-size: 11px;
+    font-family: 'Source Sans Pro' ;
+    //color: #777;
+    letter-spacing: .1em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
 
 /**
  * Content
@@ -83,8 +109,8 @@ ul, ol, dl, figure,
 }
 
 .page-content {
-	margin: $spacing;
-	padding: $spacing-med;
+	margin: $spacing * 3;
+	padding: $spacing-med * 3;
 }
 .page-heading {
     font-size: 20px;
@@ -111,8 +137,11 @@ ul, ol, dl, figure,
 // Sections
 .section {
 	padding: $spacing-small;
-	border-bottom: 1px solid $grey-color;
+	border-bottom: 1px solid $grey-color-light;
 	min-height: 48px;
+}
+.section-title {
+  border-bottom: 1px solid $grey-color-light;
 }
 
 /**
