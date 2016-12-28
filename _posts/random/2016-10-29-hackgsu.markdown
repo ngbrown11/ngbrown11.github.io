@@ -1,0 +1,36 @@
+---
+title: "Hackathons...my new favorite thing"
+date: 2016-10-29 12:42:11 -0400
+categories: Tech
+tags: tech
+---
+Last week I went to my first hackathon ever, and it was awesome!
+
+Now for those of you who don't know what a hackathon is, it's an event orchestrated for people to meet up collaborate on some sort tech project nonstop. These events are typically last for 24 hours or more. Usually the event is sponsored by several different companies and/or an education facility.
+<!--sep-->
+The at these events are free, they may have development workshops for those that do not have much experience, and you may even land a job with one of the sponsoring companies. All you have to bring to these events are a computer, and maybe a change of clothes (if you want to feel fresh the next day).
+
+The hackathon I went to was organized by Georgia State University and called hackGSU. Here is a little info about the event:
+
+### HackGSU
+
+What is hackGSU?
+
+- __hackGSU__ is the hackathon hosted by the GSU Computer Science Department's ACM & IEEE student organizations. There will be lots of food and $$ prizes $$.
+
+Cost?
+
+- Nothing! Zero! 100% free of charge.
+- The event is absolutely free for all participants. We will provide you with the venue, food, Wi-Fi, etc. You just need to show up.
+
+Sponsors
+
+- GE
+- State Farm
+- XYIENCE
+- Anthem
+- +\ over 20 more!
+
+I recommend that every person who has any interest technology at all try to attend atleast one hackathon in their life. I literally only slept about 4 out of 46 hours (!!!) and I had such an amazing experience. Even if you don't create an amazing project while your there, you can learn new things at development workshops they may have. You can also get to see some incredible technology, created in just a short period of time, first hand!
+
+Since the event last week I have now registered for two more hackathons and am eager to find more to attend. The projects I create here may eventually help me to learn my career job some day. And if they don't, the networking at these events probably will.

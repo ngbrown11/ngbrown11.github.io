@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+name: PORTFOLIO
+title: ngbrown11
+email: ngbrown11@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Bringing enlightenment and sharing my world, one post at a time. A website to display my projects and
+  passions; moonlighting as a blog about various topics ranging from sports, to technology, to food, etc.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: Mr_Innovative
+github_username:  ngbrown11
+linkedin_username: Nathaniel Brown
+stackoverflow_username: Nate
+excerpt_separator: <!--sep-->
+defaults: # YAML default variables
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      author: "Nathaniel Brown"
+  -
+    scope:
+      path: "_posts/projects"
+    values:
+      categories: "Projects"
+      tags: "project"
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems:
+ - jemoji
+ - jekyll-mentions
+ - jekyll-seo-tag
