@@ -1,5 +1,5 @@
 ---
 layout: post_list
 title: Posts
-permalink: /posts/
+permalink: /posts
 ---

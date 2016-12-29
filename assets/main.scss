@@ -75,6 +75,7 @@ $on-laptop:        900px;		//Originally 800px
      font-weight: bold;
      font-size: 12px;
      text-align: center;
+     margin-top: $margin;
  }
  .nav {
      display: inline-block;
@@ -111,8 +112,10 @@ $on-laptop:        900px;		//Originally 800px
 /**
  * Footer
  */
+ footer {
+     margin-bottom: $margin;
+ }
 socials {
-
 }
 footer ul {
     list-style: none;
@@ -149,7 +152,9 @@ ul, ol, dl, figure,
 }
 
 .page-content {
-	margin: $margin * 2;
+	margin-left: $margin * 2;
+    margin-right: $margin * 2;
+    margin-bottom: $margin;
 	padding: $margin;
 }
 .page-heading {
