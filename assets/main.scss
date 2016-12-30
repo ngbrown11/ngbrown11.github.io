@@ -35,12 +35,17 @@ $blue-color:       #335588;
 $blue-color-light: #90aad5;
 $blue-color-dark:  #1c2f4a;
 
+/**
+ * (Galaxy Alpha: 720x1280, Galaxy S7Edge: 1440x2560,
+ * Ipad2: 768x1024, Laptop: 1366x768)
+ */
 // Width of the content area
 $content-width:    900px;		//Originally 800px
 
 $on-palm:          600px;
 $on-laptop:        900px;		//Originally 800px
-
+// Height of the content area
+$content-height:
 
 
 // Use media queries like this:
@@ -78,6 +83,7 @@ $on-laptop:        900px;		//Originally 800px
      margin-top: $margin;
  }
  .nav {
+     // Main nav characteristics
      display: inline-block;
      height: 120px;
      line-height: 80px;
@@ -86,10 +92,10 @@ $on-laptop:        900px;		//Originally 800px
      vertical-align: middle;
  }
  .nav.left {
-     margin-right: 120px;
+     margin-right: 100px;
  }
  .nav.right {
-     margin-left: 120px;
+     margin-left: 100px;
  }
  .nav a {
      padding: 10px 0;
@@ -112,10 +118,12 @@ $on-laptop:        900px;		//Originally 800px
 /**
  * Footer
  */
- footer {
-     margin-bottom: $margin;
- }
-socials {
+footer {
+    margin-bottom: $margin;
+    text-transform: uppercase;
+}
+socials a {
+    color: $text-color;
 }
 footer ul {
     list-style: none;
@@ -138,7 +146,7 @@ footer li {
     //color: #777;
     letter-spacing: .1em;
     font-weight: 300;
-    text-transform: uppercase;
+    //text-transform: uppercase;
 }
 
 /**
@@ -245,7 +253,7 @@ ul, ol, dl, figure,
 body {
     font: $font-weight #{$font-size}/#{$line-height} $font-family;
     color: $text-color;
-    background-color: $background-blue;
+    background-color: darken($background-blue, 10%);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -270,6 +278,7 @@ body {
         max-width:         calc(#{$content-width} - (#{$spacing}));
         padding-right: $spacing / 2;
         padding-left: $spacing / 2;
+        vertical-align: middle;
     }
 }
 
@@ -326,7 +335,7 @@ a {
     display: inline-block;
 
     > svg {
-        width: 96px;
-        height: 96px;
+        width: 144px;
+        height: 144px;
     }
 }
