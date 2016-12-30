@@ -16,6 +16,10 @@ patients concerns, or recommend they schedule an appointment. The software is co
 - Mobile application for the practitioner (currently only Android)
 - A desktop application for the practitioner (supported on Windows/MacOS/Linux)
 
+<<<<<<< HEAD
 ##### I will add more information regarding Project PULP soon! #####
+=======
+#### I will add more information regarding Project PULP soon! ####
+>>>>>>> f5b1e70073a42cca660b0aaebd123fa642bbf789
 
 Here is a link to the [GitHub repo.](https://github.com/NJTuley/TravoltaProject)
