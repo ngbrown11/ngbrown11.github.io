@@ -3,9 +3,9 @@ layout: default
 ---
 <!-- Mini-intro section -->
 <div class="section">
-	<h2><strong><span class="section-title">Nathaniel's Portfolio</span></strong></h2>
-	<p>I'm a software developer and a computer information systems major at Georgia State University's Robinson College of Business.</p>
-	<span><a href="/about/">Read about me</a></span>
+	<h1><strong><span class="section-title">Nathaniel's Portfolio</span></strong></h1>
+	<p>I'm a software developer and a computer information systems major at Georgia State University's Robinson College of Business. I design desktop and mobile applications (Android). I reside in the US, traveling from NY to ATL.</p>
+	<span class="section-post-links"><a href="/about">Read more about me</a></span>
 </div>
 
 <!-- Latest project section -->
@@ -17,10 +17,10 @@ layout: default
 
 		<h3>{{ post.title }}</h3>
 		{{ post.excerpt }}
-		<a href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
+		<a class="section-post-links" href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
 	{% endfor %}
 
-	<a href="/projects/">All Projects</a>
+	<a class="section-post-links" href="/projects">All Projects</a>
 </div>
 
 <!-- Latest post section -->
@@ -32,10 +32,10 @@ layout: default
 
 		<h3>{{ post.title }}</h3>
 		{{ post.excerpt }}
-		<a href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
+		<a class="section-post-links" href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
 	{% endfor %}
 
-	<a href="/posts/">All Posts</a>
+	<a class="section-post-links" href="/posts">All Posts</a>
 </div>
 
 <!-- Contacts section -->

@@ -7,7 +7,7 @@
 
 # Site settings
 name: PORTFOLIO
-title: ngbrown11
+title: Nathaniel Brown
 email: ngbrown11@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Bringing enlightenment and sharing my world, one post at a time. A website to display my projects and
@@ -26,6 +26,7 @@ defaults: # YAML default variables
     values:
       layout: "post"
       author: "Nathaniel Brown"
+      permalink:    /:categories/:title/
   -
     scope:
       path: "_posts/projects"

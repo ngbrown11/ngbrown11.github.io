@@ -43,9 +43,9 @@ $blue-color-dark:  #1c2f4a;
 $content-width:    900px;		//Originally 800px
 
 $on-palm:          600px;
-$on-laptop:        900px;		//Originally 800px
+$on-laptop:        800px;		//Originally 800px
 // Height of the content area
-$content-height:
+$content-height:   1200px;
 
 
 // Use media queries like this:
@@ -93,9 +93,19 @@ $content-height:
  }
  .nav.left {
      margin-right: 100px;
+
+     @include media-query($on-laptop) {
+         margin: auto;
+         float: left;
+     }
  }
  .nav.right {
      margin-left: 100px;
+
+     @include media-query($on-laptop) {
+         margin: auto;
+         float: right;
+     }
  }
  .nav a {
      padding: 10px 0;
@@ -129,6 +139,10 @@ footer ul {
     list-style: none;
     display: inline-block;
     font-size: 12px;
+
+    @include media-query($on-laptop) {
+        font-size: 14px;
+    }
 }
 footer li {
     text-align: left;
@@ -138,6 +152,11 @@ footer li {
     display: inline-block;
     text-align: right;
     padding-right: 15px;
+
+    @include media-query($on-laptop) {
+        max-width: 250px;
+        text-align: center;
+    }
 }
 .meta {
     margin: 0 auto;
@@ -147,6 +166,10 @@ footer li {
     letter-spacing: .1em;
     font-weight: 300;
     //text-transform: uppercase;
+
+    @include media-query($on-laptop) {
+        font-size: 14px;
+    }
 }
 
 /**
@@ -164,6 +187,12 @@ ul, ol, dl, figure,
     margin-right: $margin * 2;
     margin-bottom: $margin;
 	padding: $margin;
+
+    @include media-query($on-laptop) {
+        margin-left: 0;
+        margin-right: 0;
+        padding: $spacing-med * 2;
+    }
 }
 .page-heading {
     font-size: 20px;
@@ -189,19 +218,27 @@ ul, ol, dl, figure,
 
 // Sections
 .section {
-	padding: $spacing-small * 2;
-	border-bottom: 1px solid $grey-color-light;
+	padding: $spacing-small * 3;
+	border-bottom: 2px solid $grey-color-light;
 	min-height: 120px;
 }
 .section-title {
     border-bottom: 1px solid $grey-color-light;
+
+    @include media-query($on-laptop) {
+        font-size: 32px;
+    }
+}
+.section-post-links {
+    font-size: 11px;
+    text-transform: uppercase;
 }
 
 /**
  * Posts
  */
  .post-header {
-    margin-bottom: $spacing;
+    margin-bottom: $spacing * 2;
 }
 
 .post-title {
@@ -216,6 +253,10 @@ ul, ol, dl, figure,
 .post-content {
     margin: $spacing;      //Origin margin-bottom
 
+    @include media-query($on-laptop) {
+        margin: $spacing-med;
+    }
+
     h2 {
         font-size: 32px;
 
@@ -226,6 +267,7 @@ ul, ol, dl, figure,
 
     h3 {
         font-size: 26px;
+        color: $blue-color-light;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -234,6 +276,7 @@ ul, ol, dl, figure,
 
     h4 {
         font-size: 20px;
+        color: $blue-color-light;
 
         @include media-query($on-laptop) {
             font-size: 18px;
@@ -293,9 +336,9 @@ a {
     color: $blue-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($blue-color, 15%);
-    }
+    // &:visited {
+    //     color: darken($blue-color, 15%);
+    // }
 
     &:hover {
         color: $text-color;
