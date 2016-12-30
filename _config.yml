@@ -6,13 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-<<<<<<< HEAD
-name: NATE
-title: AllThings
-=======
 name: PORTFOLIO
 title: Nathaniel Brown
->>>>>>> f5b1e70073a42cca660b0aaebd123fa642bbf789
 email: ngbrown11@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Bringing enlightenment and sharing my world, one post at a time. A website to display my projects and
@@ -31,10 +26,7 @@ defaults: # YAML default variables
     values:
       layout: "post"
       author: "Nathaniel Brown"
-<<<<<<< HEAD
-=======
       permalink:    /:categories/:title/
->>>>>>> f5b1e70073a42cca660b0aaebd123fa642bbf789
   -
     scope:
       path: "_posts/projects"

@@ -6,30 +6,15 @@
   <title>{% if page.title %}{{ site.title }}{{ page.title | escape }}{% else %}{{ site.title }}{{ site.name | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-<<<<<<< HEAD
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  
-=======
   <link rel="stylesheet" href="/assets/main.css" type="text/css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
->>>>>>> f5b1e70073a42cca660b0aaebd123fa642bbf789
   <!-- Links for favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/favicon/manifest.json">
-  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicon/manifest.json">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
-<<<<<<< HEAD
-  
-  <!-- Links for the nameAnimation area added -->
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
-  <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
-=======
->>>>>>> f5b1e70073a42cca660b0aaebd123fa642bbf789
 </head>
