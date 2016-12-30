@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- {% include head.html %}
+	{% seo %} -->
+	<link rel="stylesheet" href="/css/new-main.css" type="text/css">
+
+	<body>
+
+		{% include header.html %}
+
+		<div class="page-content">
+
+			<!-- Mini-intro section -->
+			<div class="section">
+				<h2>Nathaniel's Portfolio</h2>
+				<p>I'm a software developer and a computer information systems major at Georgia State University's Robinson College of Business.</p>
+				<span><a href="/about/">Read about me</a></span>
+			</div>
+
+			<!-- Latest project section -->
+			<div class="section">
+				<h3>Projects</h3>
+
+				{% for post in site.categories.Projects limit:1 %}
+					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+					<h4>{{ post.title }}</h4>
+					{{ post.excerpt }}
+					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
+				{% endfor %}
+
+				<a href="/projects/">All Projects</a>
+			</div>
+			
+			<!-- Latest post section -->
+			<div class="section">
+				<h3>Posts</h3>
+
+				{% for post in site.posts limit:1 %}
+					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+					<h4>{{ post.title }}</h4>
+					{{ post.excerpt }}
+					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
+				{% endfor %}
+
+				<a href="/blog/">All Posts</a>
+			</div>
+
+			<!-- Contacts section -->
+			<div class="section">
+				<h3>Contacts</h3>
+				<p>I'm available primarily through <a href="mailto:ngbrown11@gmail.com">email</a>. I can also be reached on <a href="https://linkedin.com/in/nathaniel-brown-597465b2">LinkedIn</a>. Links to GitHub and other online connections ca be found at the bottom of the page.</p>
+			</div>
+			
+		</div>
+
+		{% include footer.html %}
+
+	</body>
+
+</html>
