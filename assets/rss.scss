@@ -1,0 +1,64 @@
+---
+---
+// Display all elements and define the typeface
+* {
+    display: block;
+}
+
+// Provide a margin
+:root {
+    margin: 50px;
+}
+
+// Center title
+channel > title {
+    font-size: 2em;
+    text-align: center;
+}
+
+// Warn viewers this is a rss feed
+channel > title:after {
+    display: block;
+    padding: 50px;
+    content: "This is an RSS feed, designed to be read in an RSS application.";
+    background-color: grey;
+    color: white;
+}
+
+// Style the items of the feed
+item {
+    margin: 25px 0 20px 0;
+}
+
+item > title {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+item > link {
+    font-size: 0.875em;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+item > description {
+    font-size: 0.875em;
+}
+
+item > pubDate {
+    font-size: 0.875em;
+}
+
+// Hide some of the information
+channel > link,
+channel > copyright,
+channel > lastBuildDate,
+channel > generator,
+channel > docs,
+language,
+lastBuildDate,
+ttl,
+item > link,
+item > guid {
+    display: none;
+}
