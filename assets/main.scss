@@ -10,7 +10,7 @@
  *
  */
 $font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size:   16px;
+$font-size:   1em;
 $font-weight: 400;
 $small-font-size:  $font-size * 0.875;
 $line-height: 1.5;
@@ -42,7 +42,7 @@ $blue-color-dark:  #1c2f4a;
 // Width of the content area
 $content-width:    900px;		//Originally 800px
 
-$on-palm:          600px;
+$on-palm:          720px;       //Originally 600px
 $on-laptop:        800px;		//Originally 800px
 // Height of the content area
 $content-height:   1200px;
@@ -80,7 +80,14 @@ $content-height:   1200px;
      font-weight: bold;
      font-size: 12px;
      text-align: center;
-     margin-top: $margin;
+     margin-top: $margin / 2;
+
+     @include media-query($on-laptop) {
+          margin-top: $margin;
+     }
+     @include media-query($on-palm) {
+          font-size: 11px;
+     }
  }
  .nav {
      // Main nav characteristics
@@ -95,7 +102,7 @@ $content-height:   1200px;
      margin-right: 100px;
 
      @include media-query($on-laptop) {
-         margin: auto;
+         margin-right: 0px;
          float: left;
      }
  }
@@ -103,7 +110,7 @@ $content-height:   1200px;
      margin-left: 100px;
 
      @include media-query($on-laptop) {
-         margin: auto;
+         margin-left: 0px;
          float: right;
      }
  }
@@ -129,8 +136,9 @@ $content-height:   1200px;
  * Footer
  */
 footer {
-    margin-bottom: $margin;
+    margin-bottom: $margin / 2;
     text-transform: uppercase;
+    color: $text-color;
 }
 socials a {
     color: $text-color;
@@ -146,6 +154,7 @@ footer ul {
 }
 footer li {
     text-align: left;
+    color: $text-color;
 }
 .about-foot {
     max-width: 300px;
@@ -154,7 +163,13 @@ footer li {
     padding-right: 15px;
 
     @include media-query($on-laptop) {
-        max-width: 250px;
+        max-width: 400px;
+        display: inline;
+        text-align: center;
+    }
+    @include media-query($on-palm) {
+        max-width: 300px;
+        display: inline;
         text-align: center;
     }
 }
@@ -175,6 +190,11 @@ footer li {
 /**
  * Content
  */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -191,7 +211,12 @@ ul, ol, dl, figure,
     @include media-query($on-laptop) {
         margin-left: 0;
         margin-right: 0;
-        padding: $spacing-med * 2;
+        padding: $spacing * 2;
+    }
+    @include media-query($on-palm) {
+        margin-left: 0;
+        margin-right: 0;
+        padding: $spacing-med;
     }
 }
 .page-heading {
@@ -201,10 +226,14 @@ ul, ol, dl, figure,
 // Posts
 .post-list {
     //margin-left: 0;
-    list-style: none;
+    list-style: circle;
 
     > li {
         margin-bottom: $spacing;
+
+        @include media-query($on-laptop) {
+            margin-bottom: $spacing-med * 2;
+        }
     }
 }
 .post-meta {
@@ -243,6 +272,7 @@ ul, ol, dl, figure,
 
 .post-title {
     font-size: 42px;
+    font-family: 'Source Sans Pro';
     letter-spacing: -1px;
     line-height: 1;
 
@@ -256,12 +286,18 @@ ul, ol, dl, figure,
     @include media-query($on-laptop) {
         margin: $spacing-med;
     }
+    @include media-query($on-palm) {
+        margin: $spacing-small * 2;
+    }
 
     h2 {
         font-size: 32px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
+        }
+        @include media-query($on-palm) {
+            font-size: 24px;
         }
     }
 
@@ -272,6 +308,9 @@ ul, ol, dl, figure,
         @include media-query($on-laptop) {
             font-size: 22px;
         }
+        @include media-query($on-palm) {
+            font-size: 20px;
+        }
     }
 
     h4 {
@@ -280,6 +319,9 @@ ul, ol, dl, figure,
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+        @include media-query($on-palm) {
+            font-size: 16px;
         }
     }
 }
@@ -321,6 +363,13 @@ body {
         max-width:         calc(#{$content-width} - (#{$spacing}));
         padding-right: $spacing / 2;
         padding-left: $spacing / 2;
+        vertical-align: middle;
+    }
+    @include media-query($on-palm) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-med}));
+        max-width:         calc(#{$content-width} - (#{$spacing-med}));
+        padding-right: $spacing-med / 2;
+        padding-left: $spacing-med / 2;
         vertical-align: middle;
     }
 }
@@ -378,7 +427,16 @@ a {
     display: inline-block;
 
     > svg {
-        width: 144px;
-        height: 144px;
+        width: 192px;
+        height: 192px;
+
+        @include media-query($on-laptop) {
+            width: 144px;
+            height: 144px;
+        }
+        @include media-query($on-palm) {
+            width: 120px;
+            height: 120px;
+        }
     }
 }
