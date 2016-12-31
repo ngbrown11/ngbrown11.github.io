@@ -102,16 +102,22 @@ $content-height:   1200px;
      margin-right: 100px;
 
      @include media-query($on-laptop) {
-         margin-right: 0px;
+         margin-right: -20px;
          float: left;
+     }
+     @include media-query($on-palm) {
+         max-width: 100px;
      }
  }
  .nav.right {
      margin-left: 100px;
 
      @include media-query($on-laptop) {
-         margin-left: 0px;
+         margin-left: -20px;
          float: right;
+     }
+     @include media-query($on-palm) {
+         max-width: 100px;
      }
  }
  .nav a {
@@ -140,13 +146,21 @@ footer {
     text-transform: uppercase;
     color: $text-color;
 }
-socials a {
+.socials {
     color: $text-color;
+    display: inline-block;
+
+    @include media-query($on-laptop) {
+        display: inline;
+    }
+    @include media-query($on-palm) {
+        display: inline;
+    }
 }
 footer ul {
     list-style: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 11px;
 
     @include media-query($on-laptop) {
         font-size: 14px;
@@ -164,11 +178,13 @@ footer li {
 
     @include media-query($on-laptop) {
         max-width: 400px;
+        vertical-align: middle;
         display: inline;
         text-align: center;
     }
     @include media-query($on-palm) {
         max-width: 300px;
+        vertical-align: middle;
         display: inline;
         text-align: center;
     }
@@ -226,7 +242,7 @@ ul, ol, dl, figure,
 // Posts
 .post-list {
     //margin-left: 0;
-    list-style: circle;
+    list-style: none;
 
     > li {
         margin-bottom: $spacing;
@@ -287,7 +303,7 @@ ul, ol, dl, figure,
         margin: $spacing-med;
     }
     @include media-query($on-palm) {
-        margin: $spacing-small * 2;
+        margin: $spacing-small;
     }
 
     h2 {

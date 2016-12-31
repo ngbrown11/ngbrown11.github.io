@@ -9,6 +9,8 @@ layout: default
       </header>
 
       <div class="post-content">
+          {{ content }}
+
           <ul class="post-list">
               {% for post in site.posts %}
                   <li>
@@ -21,7 +23,7 @@ layout: default
               {% endfor %}
           </ul>
 
-          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+          <p class="section-post-links">subscribe <a style="font-size:12px !important;" href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
       </div>
 
   </article>
