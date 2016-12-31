@@ -69,6 +69,11 @@ $content-height:   1200px;
  * Site layout
  *
  */
+// Reset the basics
+body, h1, h2, h3, h4, h5, h6, ol, ul {
+    margin: 0px;
+    padding: 0px;
+}
 
 /**
  * Header
@@ -83,7 +88,8 @@ $content-height:   1200px;
      margin-top: $margin / 2;
 
      @include media-query($on-laptop) {
-          margin-top: $margin;
+          margin-top: $margin * 0.875;
+          margin-bottom: $margin;
      }
      @include media-query($on-palm) {
           font-size: 11px;
@@ -93,7 +99,7 @@ $content-height:   1200px;
      // Main nav characteristics
      display: inline-block;
      height: 120px;
-     line-height: 80px;
+     line-height: 90px;     // was 80px
      position: relative;
      top: -30px;
      vertical-align: middle;
@@ -146,7 +152,7 @@ footer {
     text-transform: uppercase;
     color: $text-color;
 }
-.socials {
+.foot-links {
     color: $text-color;
     display: inline-block;
 
@@ -154,7 +160,14 @@ footer {
         display: inline;
     }
     @include media-query($on-palm) {
-        display: inline;
+        vertical-align: middle;
+    }
+}
+.socials {
+    visibility: visible;
+
+    @include media-query($on-palm) {
+        visibility: hidden;
     }
 }
 footer ul {
@@ -163,7 +176,7 @@ footer ul {
     font-size: 11px;
 
     @include media-query($on-laptop) {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 footer li {
@@ -177,15 +190,11 @@ footer li {
     padding-right: 15px;
 
     @include media-query($on-laptop) {
-        max-width: 400px;
-        vertical-align: middle;
-        display: inline;
-        text-align: center;
+        max-width: 250;
+        padding-right: $spacing-small * 2;
     }
     @include media-query($on-palm) {
-        max-width: 300px;
         vertical-align: middle;
-        display: inline;
         text-align: center;
     }
 }
@@ -199,18 +208,13 @@ footer li {
     //text-transform: uppercase;
 
     @include media-query($on-laptop) {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
 /**
  * Content
  */
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -237,6 +241,27 @@ ul, ol, dl, figure,
 }
 .page-heading {
     font-size: 20px;
+}
+
+.about-img {
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    img {
+      height: 288px;
+      width: 288px;
+      border-radius: 50%;
+
+      @include media-query($on-laptop) {
+          height: 224px;
+          width: 224px;
+      }
+      @include media-query($on-palm) {
+          height: 192px;
+          width: 192px;
+      }
+    }
 }
 
 // Posts
@@ -266,6 +291,10 @@ ul, ol, dl, figure,
 	padding: $spacing-small * 3;
 	border-bottom: 2px solid $grey-color-light;
 	min-height: 120px;
+
+    > li {
+        list-style-position: inside;
+    }
 }
 .section-title {
     border-bottom: 1px solid $grey-color-light;
