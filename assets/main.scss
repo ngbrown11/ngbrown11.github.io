@@ -27,6 +27,7 @@ $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
+$grey-color-med:   lighten($grey-color, 15%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 //Different color variables
@@ -151,10 +152,12 @@ footer {
     margin-bottom: $margin / 2;
     text-transform: uppercase;
     color: $text-color;
+    text-align: center;
 }
 .foot-links {
     color: $text-color;
     display: inline-block;
+    text-align: left;
 
     @include media-query($on-laptop) {
         display: inline;
@@ -162,7 +165,7 @@ footer {
     @include media-query($on-palm) {
         margin-top: $spacing-small * 2;
         display: block;
-        vertical-align: middle;
+        text-align: center;
     }
 }
 .socials {
@@ -199,7 +202,6 @@ footer li {
         padding-right: $spacing-small * 2;
     }
     @include media-query($on-palm) {
-        vertical-align: middle;
         text-align: center;
     }
 }
@@ -296,13 +298,19 @@ ul, ol, dl, figure,
 // Sections
 .section {
 	padding: $spacing-small * 3;
-	border-bottom: 2px solid $grey-color-light;
+	border-bottom: 2px solid $grey-color-med;
 	min-height: 120px;
-
-    > li {
-        list-style: none;
-        margin-bottom: $spacing-small * 3;
+    > p {
+        font-family: "Lucida Fax", Georgia, serif;
     }
+
+    > ul {
+        font-family: "Lucida Fax", Georgia, serif;
+        list-style: none;
+    }
+}
+.contacts {
+    margin-bottom: $spacing-small * 3;
 }
 .section-title {
     border-bottom: 1px solid $grey-color-light;
@@ -407,18 +415,17 @@ body {
     margin-left: auto;
     padding-right: $spacing;
     padding-left: $spacing;
-    vertical-align: middle;
+    display: block;
+    text-align: center;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
         padding-right: $spacing / 2;
         padding-left: $spacing / 2;
-        vertical-align: middle;
     }
     @include media-query($on-palm) {
         padding-right: $spacing-med / 2;
         padding-left: $spacing-med / 2;
-        vertical-align: middle;
     }
 }
 .wrapper {
