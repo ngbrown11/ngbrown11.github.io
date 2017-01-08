@@ -4,9 +4,11 @@ date: 2016-06-17 05:57:58 -0400
 categories: Sports
 tags: sport
 ---
+### Cavs vs Warriors (Finals Game 6) ###
+
 The integrity of the NBA is slowly being compromised by the softening of the game,
-as well as the huge difference in the foul calls
 <!--sep-->
+as well as the huge difference in the foul calls
 made by the referees. In last nights game 6 of the Finals, the Cavaliers vs. the Warriors, there was at least two egregious foul calls
 made by the referees; arguably three calls. All of these calls were not just egregious, but they were all called on one player, and
 he just so happened to be the NBA's MVP.

@@ -364,7 +364,7 @@ ul, ol, dl, figure,
 
     h3 {
         font-size: 26px;
-        color: $blue-color-light;
+        color: $blue-color;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -376,7 +376,7 @@ ul, ol, dl, figure,
 
     h4 {
         font-size: 20px;
-        color: $blue-color-light;
+        color: $blue-color;
 
         @include media-query($on-laptop) {
             font-size: 18px;

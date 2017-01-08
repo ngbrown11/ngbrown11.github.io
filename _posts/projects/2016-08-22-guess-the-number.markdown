@@ -3,9 +3,9 @@ title: "Guess The Number"
 date: 2016-08-22 01:20:04 -0400
 tags: project
 ---
-This is my first Android application.
-
 ### Simple Gaming Application ###
+
+This is my first Android application.
 
 This is a simple application in which a random number between 0 & 100 is generated and the user is supposed to try
 <!--sep-->

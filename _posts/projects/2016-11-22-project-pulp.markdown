@@ -3,10 +3,10 @@ title: "Project PULP"
 date: 2016-11-22 13:49:51 -0400
 tags: project
 ---
+### Software-as-a-Service ###
+
 A system of software applications, or software-as-a-service, for the healthcare industry.
 <!--sep-->
-
-### Software-as-a-Service ###
 
 This is a system of software applications, or software-as-a-service, connecting users to their healthcare practitioners.
 The software enables the user to direct message their practitioner with a picture, and a description of what
@@ -16,10 +16,6 @@ patients concerns, or recommend they schedule an appointment. The software is co
 - Mobile application for the practitioner (currently only Android)
 - A desktop application for the practitioner (supported on Windows/MacOS/Linux)
 
-<<<<<<< HEAD
-##### I will add more information regarding Project PULP soon! #####
-=======
 #### I will add more information regarding Project PULP soon! ####
->>>>>>> f5b1e70073a42cca660b0aaebd123fa642bbf789
 
 Here is a link to the [GitHub repo.](https://github.com/NJTuley/TravoltaProject)
