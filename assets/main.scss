@@ -519,3 +519,60 @@ a {
         }
     }
 }
+
+/*
+ * Resume/CV CSS
+ */
+.res-content {
+	margin-left: $margin * 2;
+    margin-right: $margin * 2;
+    margin-bottom: $margin;
+    padding: $margin;
+    border: 2px $blue-color-dark solid;
+    background-color: $background-color;
+
+    @include media-query($on-laptop) {
+        margin-left: 0;
+        margin-right: 0;
+        padding: $spacing * 2;
+    }
+    @include media-query($on-palm) {
+        margin-left: 0;
+        margin-right: 0;
+        padding: $spacing-med;
+    }
+}
+
+// Sections
+.res-section {
+	padding: 0 ($spacing-small * 3) ($spacing-small * 3) ($spacing-small * 3);
+	border-bottom: 1px solid $blue-color-dark;
+	min-height: 120px;
+    > p {
+        font-family: "Lucida Fax", Georgia, serif;
+    }
+
+    > ul {
+        font-family: "Lucida Fax", Georgia, serif;
+        list-style: none;
+    }
+
+    > li {
+        list-style-position: inside;
+    }
+}
+.info {
+    text-align: center;
+}
+.contacts {
+    margin-bottom: $spacing-small * 3;
+}
+.res-section-title {
+    @include media-query($on-laptop) {
+        font-size: 32px;
+    }
+}
+.res-section-post-links {
+    font-size: 11px;
+    text-transform: uppercase;
+}
