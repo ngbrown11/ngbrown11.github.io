@@ -4,7 +4,7 @@ date: 2016-10-29 12:42:11 -0400
 categories: Tech
 tags: tech
 ---
-### HackGSU ###
+ **HackGSU**
 
 Last week I went to my first hackathon ever, and it was awesome!
 <!--sep-->

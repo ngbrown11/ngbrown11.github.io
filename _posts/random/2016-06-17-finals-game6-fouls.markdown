@@ -4,7 +4,7 @@ date: 2016-06-17 05:57:58 -0400
 categories: Sports
 tags: sport
 ---
-### Cavs vs Warriors (Finals Game 6) ###
+**Cavs vs Warriors (Finals Game 6)**
 
 The integrity of the NBA is slowly being compromised by the softening of the game,
 <!--sep-->

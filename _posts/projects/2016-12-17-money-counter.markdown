@@ -3,7 +3,7 @@ title: "Money Counter"
 date: 2016-12-17 13:07:38 -0400
 tags: project
 ---
-### Simple Financial Application ###
+**Simple Financial Application**
 
 This is a financial mobile application for counting money.
 <!--sep-->
