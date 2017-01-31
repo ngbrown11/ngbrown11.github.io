@@ -1,10 +1,10 @@
 ---
-title: "Referees Ruining the NBA (Finals Game 6)"
+title: "Referees Deciding Games (NBA)"
 date: 2016-06-17 05:57:58 -0400
 categories: Sports
 tags: sport
 ---
-**Cavs vs Warriors (Finals Game 6)**
+**Cavs vs Warriors (2016 Finals Game 6)**
 
 The integrity of the NBA is slowly being compromised by the softening of the game,
 <!--sep-->
@@ -12,6 +12,8 @@ as well as the huge difference in the foul calls
 made by the referees. In last nights game 6 of the Finals, the Cavaliers vs. the Warriors, there was at least two egregious foul calls
 made by the referees; arguably three calls. All of these calls were not just egregious, but they were all called on one player, and
 he just so happened to be the NBA's MVP.
+
+<img src="/assets/img/posts/steph_curry_mouth_guard.jpg" align="middle" alt="Stephen Curry throwing mouth guard">
 
 The calls made during this game completely disrupted the flow of game and caused Stephen Curry to react in such a way that
 resulted in him throwing his mouthpiece and hitting a Cleveland fan with it (granted, it was completely accidental). These asinine
