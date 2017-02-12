@@ -12,7 +12,7 @@ This is a simple application in which a random number between 0 & 100 is generat
 and guess what the number is. If incorrect, the application will respond with a response of "too high" or "too low".
 The user can guess until the correct answer is submitted, in which the game will alert you that you have guessed correctly.
 
-<img src="/assets/img/posts/GuessTN-Guess.png" align="middle" width="288" height="512" alt="After guess screenshot">
+<img class="imgMD" src="/assets/img/posts/GuessTN-Guess.png" align="middle" width="288" height="512" alt="After guess screenshot">
 
 #### This app can be useful in a number of ways: ####
 
@@ -21,9 +21,9 @@ The user can guess until the correct answer is submitted, in which the game will
 - Can help to waste time when there is nothing else to do
 
 I intend to upgrade the application so that it has a more pleasant UI. I definitely also intend to add more range options then
-0-100 to the application to make the app more useful.
+0-100 to the application to make the application more useful.
 
-#### Future Plans ####
+#### Future Plans: ####
 
 In the future, I intend to:
 

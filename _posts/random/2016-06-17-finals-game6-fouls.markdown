@@ -13,7 +13,7 @@ made by the referees. In last nights game 6 of the Finals, the Cavaliers vs. the
 made by the referees; arguably three calls. All of these calls were not just egregious, but they were all called on one player, and
 he just so happened to be the NBA's MVP.
 
-<img src="/assets/img/posts/steph_curry_mouth_guard.jpg" align="middle" alt="Stephen Curry throwing mouth guard">
+<img class="imgMD" src="/assets/img/posts/steph_curry_mouth_guard.jpg" align="middle" alt="Stephen Curry throwing mouth guard">
 
 The calls made during this game completely disrupted the flow of game and caused Stephen Curry to react in such a way that
 resulted in him throwing his mouthpiece and hitting a Cleveland fan with it (granted, it was completely accidental). These asinine

@@ -1,5 +1,5 @@
 ---
-title: "Hackathons...my new favorite thing"
+title: "Hackathons, my new favorite thing"
 date: 2016-10-29 12:42:11 -0400
 categories: Tech
 tags: tech
