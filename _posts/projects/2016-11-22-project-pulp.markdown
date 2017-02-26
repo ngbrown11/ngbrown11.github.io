@@ -1,14 +1,11 @@
 ---
 title: "Project PULP"
 date: 2016-11-22 13:49:51 -0400
-tags: project
+tags: java/android
 ---
 **Packaged Software**
 
-A system of software applications, or connected applications, for the healthcare industry.
-<!--sep-->
-
-This is a system of software applications, to be used for connecting patient users to their healthcare practitioners.
+A system of software applications, or connected applications, for the healthcare industry. <!--sep-->This is a system of software applications, to be used for connecting patient users to their healthcare practitioners.
 The software enables the user to use a mobile application to direct message their health provider with a picture, and a description of what
 concerns them . The provider will receive the message on their desktop application (for an office computer) or on their mobile application. They can then reply with a simple message to either alleviate their
 patients concerns, or recommend they schedule an appointment. The software system is comprised of:

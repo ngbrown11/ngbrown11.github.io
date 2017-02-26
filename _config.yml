@@ -29,10 +29,14 @@ defaults: # YAML default variables
       permalink:    /:categories/:title/
   -
     scope:
+      path: "_posts/other"
+    values:
+      categories: "Other"
+  -
+    scope:
       path: "_posts/projects"
     values:
       categories: "Projects"
-      tags: "project"
 
 # Build settings
 markdown: kramdown

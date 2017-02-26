@@ -9,7 +9,8 @@
  * Variables
  *
  */
-$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
+//Originally "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size:   1em;
 $font-weight: 400;
 $small-font-size:  $font-size * 0.875;
@@ -80,7 +81,7 @@ body, h1, h2, h3, h4, h5, h6, ol, ul {
  * Header
  */
  header {
-     font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
+     font-family: $font-family //Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
      letter-spacing: .15em;
      text-transform: uppercase;
      font-weight: bold;
@@ -560,10 +561,6 @@ a {
         font-family: "Lucida Fax", Georgia, serif;
         list-style: none;
     }
-
-    > li {
-        list-style-position: inside;
-    }
 }
 .info {
     text-align: center;
@@ -575,6 +572,12 @@ a {
     @include media-query($on-laptop) {
         font-size: 32px;
     }
+}
+.res-section-lists {
+    margin-bottom: $spacing-med;
+}
+.res-list-lists {
+    list-style-position: inside;
 }
 .res-section-post-links {
     font-size: 11px;

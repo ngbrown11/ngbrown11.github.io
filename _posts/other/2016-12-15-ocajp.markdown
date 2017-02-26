@@ -1,15 +1,11 @@
 ---
 title: "How I Passed The OCAJP Certification Exam"
 date: 2016-12-15 15:12:33 -0400
-categories: Tech
 tags: tech
 ---
 **Oracle Certified Associate Java Programmer**
 
-Last week I took the Oracle Certification Exam (1Z0-808) for my first attempt, and passed with a 91%!
-<!--sep-->
-
-Prior to taking this certification exam, I was extremely nervous that I would be far from prepared. I've heard many stories about how difficult the exam is, be it from my college programming professor, or from online forums such as [coderanch.com](https://coderanch.com) and [javaranch.com](https://javaranch.com). Many test takers discussed how they studied for weeks to take the exam, only to spend the money on the test and fail miserably. Some even said they failed three times!
+Last week I took the Oracle Certification Exam (1Z0-808) for my first attempt, and passed with a 91%! <!--sep-->Prior to taking this certification exam, I was extremely nervous that I would be far from prepared. I've heard many stories about how difficult the exam is, be it from my college programming professor, or from online forums such as [coderanch.com](https://coderanch.com) and [javaranch.com](https://javaranch.com). Many test takers discussed how they studied for weeks to take the exam, only to spend the money on the test and fail miserably. Some even said they failed three times!
 I had approximately two weeks to study for the certification at the time when I began to seriously study before my test date. After hearing and seeing the stories of those that failed even though they were preparing for weeks, I tried to cling to the hope of the few stories I saw about test takers passing the exam with a scores like 96% on the first try. I viewed their success stories and studying methods, and employed my own studying method for the certification exam.
 
 #### Studying Method ####

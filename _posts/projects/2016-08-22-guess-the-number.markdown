@@ -1,15 +1,11 @@
 ---
 title: "Guess The Number"
 date: 2016-08-22 01:20:04 -0400
-tags: project
+tags: android
 ---
 **Simple Gaming Application**
 
-This is my first Android application.
-
-This is a simple application in which a random number between 0 & 100 is generated and the user is supposed to try
-<!--sep-->
-and guess what the number is. If incorrect, the application will respond with a response of "too high" or "too low".
+This is my first Android application. <!--sep-->This is a simple application in which a random number between 0 & 100 is generated and the user is supposed to try and guess what the number is. If incorrect, the application will respond with a response of "too high" or "too low".
 The user can guess until the correct answer is submitted, in which the game will alert you that you have guessed correctly.
 
 <img class="imgMD" src="/assets/img/posts/GuessTN-Guess.png" align="middle" width="288" height="512" alt="After guess screenshot">
