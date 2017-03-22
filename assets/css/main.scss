@@ -259,17 +259,17 @@ ul, ol, dl, figure,
     img {
         margin-top: 50px;
         margin-bottom: 50px;
-        height: 288px;
-        width: 288px;
+        height: 216px;
+        width: 216px;
         border-radius: 50%;
 
         @include media-query($on-laptop) {
-            height: 224px;
-            width: 224px;
+            height: 192px;
+            width: 192px;
        }
        @include media-query($on-palm) {
-           height: 192px;
-           width: 192px;
+           height: 176px;
+           width: 176px;
        }
     }
 }
