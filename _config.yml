@@ -10,8 +10,8 @@ name: PORTFOLIO
 title: Nathaniel Brown
 email: ngbrown11@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Bringing enlightenment and sharing my world, one post at a time. A website to display my projects and
-  passions; moonlighting as a blog about various topics ranging from sports, to technology, to food, etc.
+  The personal webpage of Nathaniel Brown. A website to display my projects and passions;
+  moonlighting as a blog about various topics in technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Mr_Innovative

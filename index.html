@@ -1,45 +1,16 @@
 ---
 layout: default
 ---
-<!-- Mini-intro section -->
-<div class="section">
-	<h1><strong><span class="section-title">Nathaniel's Portfolio</span></strong></h1>
-	<p>I'm a software developer and a computer information systems major at Georgia State University's Robinson College of Business. I design desktop and mobile applications (Android). I reside in the US, traveling from NY to ATL.</p>
-	<span class="section-post-links"><a href="/about">Read more about me</a></span>
-</div>
 
-<!-- Latest project section -->
-<div class="section">
-	<h2><strong><span class="section-title">Projects</span></strong></h2>
-
-	{% for post in site.categories.Projects limit:1 %}
-		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-		<h3>{{ post.title }}</h3>
-		{{ post.excerpt }}
-		<a class="section-post-links" href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
-	{% endfor %}
-
-	<a class="section-post-links" href="/projects">All Projects</a>
-</div>
-
-<!-- Latest post section -->
-<div class="section">
-	<h2><strong><span class="section-title">Posts</span></strong></h2>
-
-	{% for post in site.posts limit:1 %}
-		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-		<h3>{{ post.title }}</h3>
-		{{ post.excerpt }}
-		<a class="section-post-links" href="{{ post.url | prepend: site.baseurl }}">Read more// </a>
-	{% endfor %}
-
-	<a class="section-post-links" href="/posts">All Posts</a>
-</div>
-
-<!-- Contacts section -->
-<div class="section">
-	<h2><strong><span class="section-title">Contact Me</span></strong></h2>
-	<p>I'm available primarily through <a href="mailto:ngbrown11@gmail.com">email</a>. I can also be reached on <a href="https://linkedin.com/in/nathaniel-brown-597465b2">LinkedIn</a>. Links and other methods of contact can be found on the <a href="/about">about</a> page.</p>
-</div>
+<header>
+    <h1>Nathaniel Brown</h1>
+    <h3>Software Engineer</h3>
+</header>
+<hr>
+<br>
+<nav>
+    <a href="/about" class="home-nav">About</a>
+    <a href="/projects" class="home-nav">Portfolio</a>
+    <a href="/blog" class="home-nav">Blog</a>
+</nav>
+<br>
