@@ -175,6 +175,36 @@ a.nav:hover { background: #eee; }
     }
 }
 
+.post-list {
+    list-style-type: none;
+    text-align: center;
+}
+.post-list h2 {
+    margin: 0;
+}
+.post-list hr {
+    width: 240px;
+}
+
+#social-media {
+    margin: 0 auto;
+    text-align: center;
+}
+.icon {
+    > svg {
+        display: inline-block;
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: black;
+        }
+    }
+}
+
 .copy {
     margin: auto;
     text-align: center;
