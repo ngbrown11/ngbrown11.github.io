@@ -7,12 +7,12 @@
 
 // Provide a margin
 :root {
-    margin: 5%;
+    margin: 50px;
 }
 
 // Center title
 channel > title {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -27,11 +27,11 @@ channel > title:after {
 
 // Style the items of the feed
 item {
-    margin: 40px 5% 40px 0;
+    margin: 25px 0 20px 0;
 }
 
 item > title {
-    font-size: 1.75em;
+    font-size: 1.25em;
     margin-bottom: 20px;
 }
 
@@ -47,11 +47,6 @@ item > description {
 
 item > pubDate {
     font-size: 0.875em;
-}
-
-item > category {
-    font-size: 0.875em;
-    color: gray;
 }
 
 // Hide some of the information

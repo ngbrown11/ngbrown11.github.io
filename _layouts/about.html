@@ -1,78 +1,39 @@
 ---
 layout: default
 ---
-<div class="about-img">
-
-    <strong><h1 style="font-family:Verdana, sans-serif">Nathaniel Brown</h1></strong>
-
-    <img src="/assets/img/UCS_photo.jpg" alt="Black Suit &amp; Tie Close-Up">
-
-</div>
-
-<div class="section">
-    <h2><strong><span class="section-title">About Me:</span></strong></h2>
-
+<header>
+    <h1>Nathaniel Brown</h1>
+    <h3>Software Engineer</h3>
+    <br>
+    <nav>
+        <a href="/" class="nav" id="home">Home</a>
+        <a href="/about" class="nav" id="about">About</a>
+        <a href="/projects" class="nav" id="portfolio">Portfolio</a>
+        <a href="/blog" class="nav" id="blog">Blog</a>
+    </nav>
+</header>
+<hr>
+<br>
+<section class="section">
     <p>
-        Hi, I am a full-time senior majoring in Computer Information Systems with a specialization in Health Informatics. I am an extremely motivated individual and I am interested in software development and web development. In my free time, aside from working on projects, I like to play basketball, workout, and watch TV and movies. I am skilled with a number of different technologies, such as:
-    </p>
-    <ul><em>
-        <li>- Eclipse</li>
-        <li>- Android Studio</li>
-        <li>- MySQL</li>
-        <li>- JDBC</li>
-        <li>  To name a few.</li>
-    </em></ul>
-    <p>
-        I have some formal education in programming, as well as being self-education. I have recently acquired the Oracle Certified Associate Java Programmer certification (for Java se 8). I have experience with a few other languages as well.
+        I'm a software engineer and a college student in Atlanta, GA. I love sports &amp; movies, and I'm really passionate about coding. This is why I made a blog, to discuss the various topics I'm learning and provide tutorials to others that want to learn new technologies too!
     </p>
     <p>
-        I am very eager to find a position or an internship in which I can utilize my skills to help an organization develop and grow, as well as myself. More specifically, I am looking for an internship or full-time position that involves software development.
+        I recently entered the field of software development and began programming a few years ago. I started by learning Python and gaining an understanding of programming basics. I then dug my foot into Java to learn more advanced topics and grasp object oriented programming. Since learning Java, I've focused on learning frameworks like Spring &amp; Hibernate, and dabbled a little with Android. I also have some web development skills, as you can see from this website I made from scratch. You can view some of <a href="/projects">my projects here</a> or check out <a href="/blog">my blog here.</a>
     </p>
-    <p>For a little more information about my education and expertise, view <strong><a href="/about/cv">my CV</a></strong>. You can also fill out the contact form below.</p>
-
-</div>
-<div class="section">
-    <h2><strong><span class="section-title">Contact Me:</span></strong></h2>
-
-    <!-- Typeform embedded code: -->
-    <div class="typeform-widget" data-url="https://ngbrown11.typeform.com/to/O9zAFx" data-text="Contact Me" style="width:100%;height:500px;"></div>
-    <script>(
-        function(){
-            var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-            if(!gi.call(d,id)){
-                js=ce.call(d,'script');
-                js.id=id;
-                js.src=b+'widget.js';
-                q=gt.call(d,'script')[0];
-                q.parentNode.insertBefore(js,q)
-            }
-        })()
+    <p>
+        If you have any questions, would like to contribute to the blog, or just want to chat, you can contact me by clicking on the form below, or connect with me on social media using the links at the bottom of the page!
+    </p>
+    <!-- Typeform -->
+    <a class="typeform-share button" href="https://ngbrown11.typeform.com/to/O9zAFx" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Contact Me </a>
+    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
     </script>
-    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">
-        <a href="https://www.typeform.com/examples/forms/contact-form-template/?utm_campaign=O9zAFx&amp;utm_source=typeform.com-6425960-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-contactform&amp;utm_term=EN" style="color: #999" target="_blank">Contact form</a>
+    <!-- Add social media buttons to span here -->
+    <div id="social-media">
+        <a href="https://github.com/{{ include.username }}" target="_blank"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
+        <a href="https://twitter.com/{{ include.username }}" target="_blank"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
+        <a href="https://linkedin.com/in/{{ include.username }}" target="_blank"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span></a>
     </div>
 
-    <!-- <p>Typeform url: https://ngbrown11.typeform.com/to/O9zAFx
-
-            Typeform launch button code:
-            <a class="typeform-share button" href="https://ngbrown11.typeform.com/to/O9zAFx" data-mode="1" target="_blank">Contact me!</a>
-            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',
-            b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';
-            q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';
-            qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-
-            Typeform embedded code:
-            Change the width and height values to suit you best
-            <div class="typeform-widget" data-url="https://ngbrown11.typeform.com/to/O9zAFx" data-text="Contact Me" style="width:100%;height:500px;"></div>
-            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"><a href="https://www.typeform.com/examples/forms/contact-form-template/?utm_campaign=O9zAFx&amp;utm_source=typeform.com-6425960-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-contactform&amp;utm_term=EN" style="color: #999" target="_blank">Contact form</a>powered by Typeform</div>
-    </p> -->
-</div>
-<div class="section">
-    <h2><strong><span class="section-title">About This Site:</span></strong></h2>
-
-    <p>
-        This site is hosted on the <a href="https://pages.github.com/">GitHub Pages</a> server. It was built with the static site generator <a href="https://jekyllrb.com/">Jekyll</a>, and I designed it myself. This site is meant to serve as an online portfolio &amp; blog, displaying information on my personal projects and interests. It provides a little insight into my life.
-    </p>
-
-</div>
+</section>
+<br>
