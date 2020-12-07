@@ -27,6 +27,9 @@ layout: default
 					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				</h2>
 			</li>
+			{% if no post in site.categories.Projects %}
+			<h4>No posts available.</h4>
+			{% endif %}
 			{% endfor %}
 		</ul>
 

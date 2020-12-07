@@ -1,8 +1,7 @@
 ---
 title: "Hackathons...my new favorite thing"
 date: 2016-10-29 12:42:11 -0400
-categories: Tech
-tags: tech
+tags: old
 ---
 Last week I went to my first hackathon ever, and it was awesome!
 

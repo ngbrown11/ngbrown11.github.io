@@ -1,0 +1,10 @@
+---
+title: "Old Post Links"
+date: 2020-12-07 00:20:32 -0400
+tags: old
+---
+#### Here are the links to some old posts.
+
+These posts use to be displayed on this blog. Some of these are not even complete, but I didn't have the heart to delete them!
+[GitHub posts markdown.](https://github.com/ngbrown11/ngbrown11.github.io/tree/master/_posts/old)
+
