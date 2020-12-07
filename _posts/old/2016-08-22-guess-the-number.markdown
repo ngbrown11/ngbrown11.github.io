@@ -1,7 +1,7 @@
 ---
 title: "Guess The Number"
 date: 2016-08-22 01:20:04 -0400
-tags: android
+tags: old
 ---
 This is my first Android application.
 <!--sep-->
